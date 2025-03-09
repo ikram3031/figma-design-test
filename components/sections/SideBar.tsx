@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Sidebar() {
   return (
-    <div className="w-64 h-screen p-4 flex flex-col justify-between">
+    <div className="w-64 h-screen sticky top-0 overflow-hidden p-4 flex flex-col justify-between">
       {/* top */}
       <div>
         <div className="flex align-items-center justify-between">
