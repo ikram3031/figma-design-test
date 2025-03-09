@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-[#242424] p-4 flex flex-col justify-between">
+    <div className="w-64 h-screen p-4 flex flex-col justify-between">
       {/* top */}
       <div>
         <div className="flex align-items-center justify-between">
@@ -66,7 +66,7 @@ export default function Sidebar() {
             </div>
 
             {/* User Profile */}
-            <div className="flex items-center gap-2 justify-between">
+            <div className="flex items-center gap-2 justify-between w-full">
               <div className="flex items-center gap-2">
                 <Image
                   src="/user.png" 
@@ -75,7 +75,8 @@ export default function Sidebar() {
                   height={24}
                   className="rounded-full"
                 />
-                <span className="text-white text-sm">Jessica Mills</span>
+                <div className="text-white text-sm">Jessica Mills</div>
+                
               </div>
               <Settings className="text-gray-400 w-5 h-5" />
             </div>

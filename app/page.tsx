@@ -8,9 +8,9 @@ import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
-    <div className="flex bg-black min-h-screen text-white">
+    <div className="flex bg-[#242424] min-h-screen text-white">
       <Sidebar />
-      <main className="flex-1 p-6">
+      <main className="flex-1 p-6 m-4 rounded-2xl bg-[#2B2B2B]">
         <Header />
         <FileUpload />
         <FileList />
