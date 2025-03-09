@@ -29,7 +29,7 @@ export default function ActionButtons() {
             <Image src="/vector.png" alt="Logo" width={16} height={16} />
           </TooltipTrigger>
           <TooltipContent className="bg-gray-900 text-white p-2 rounded-md shadow-lg max-w-xs">
-            Deep Dive processes documents section by section for "unlimited" context, enabling complete answers.
+            Deep Dive processes documents section by section for &quot;unlimited&quot; context, enabling complete answers.
             Run once per chat to unlock Table AI and Prompt Loops.
           </TooltipContent>
         </Tooltip>
