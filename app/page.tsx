@@ -3,7 +3,6 @@ import Header from "@/components/sections/Header";
 import FileUpload from "@/components/sections/FileUpload";
 import FileList from "@/components/sections/FileList";
 import ActionButtons from "@/components/sections/ActionButtons";
-import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +13,6 @@ export default function Home() {
         <FileUpload />
         <FileList />
         <ActionButtons />
-        <Footer />
       </main>
     </div>
   );
