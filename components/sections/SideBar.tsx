@@ -9,7 +9,7 @@ export default function Sidebar() {
       <div>
         <div className="flex align-items-center justify-between">
           <Image
-            src="/logo.png"
+            src="/Logo.png"
             alt="Logo"
             width={157}
             height={40}
