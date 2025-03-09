@@ -1,4 +1,4 @@
-import { User, Folder, PlusCircle, Settings, Search,PanelRightOpen, Plus } from "lucide-react";
+import { Settings, Search,PanelRightOpen, Plus } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 

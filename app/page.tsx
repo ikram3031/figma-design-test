@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Sidebar from "@/components/sections/SideBar";
 import Header from "@/components/sections/Header";
 import FileUpload from "@/components/sections/FileUpload";

@@ -1,4 +1,4 @@
-import { CloudUpload, Link, FileText, X } from "lucide-react";
+import { FileText, X } from "lucide-react";
 import Image from "next/image";
 import { Input } from "../ui/input";
 import {Button} from "../ui/button";
